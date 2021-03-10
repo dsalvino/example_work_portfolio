@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: grey;
+}
+
+h1 {
+    background-color: cyan;
+    color: gray;
+    padding-right: 1%;
+
+}
+
+nav {
+    display: flex;
+    float: right;
+    font-size: 20px;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    min-width: 450px;
+}
+
+nav a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+    border-bottom-style: solid;
+    padding: 0px 5px 5px 5px;
+}
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+h1 {
+    background-color: cyan;
+    color: gray;
+    padding-right: 5px;
+}
+
+nav {
+    display: block;
+    text-align: left;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+
+}
+
+nav a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    float: left;
+    flex: 1;
+    text-align: left;
+    padding: 80px;
+    color: burlywood;
+}
+
+.Left_about {
+    border: 15px;
+    border-color: black;
+}
+
+.Work {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.card {
+    border-style: solid;
+    border-width: 8px;
+    margin: 10px;
+    flex: auto;
+}
+
+.card img {
+    max-width: 75%;
+}
+
+main {
+    display: flex;
+}
+
+div {
+    flex:1;
+} */
