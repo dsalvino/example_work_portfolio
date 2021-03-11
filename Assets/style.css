@@ -93,6 +93,7 @@ header nav ul li a:hover {
 }
 
 grid_header {
+    display: flex;
     background-color: var(--accent-color);
     color: var(--extra-accent2);
     margin: 0;
@@ -107,6 +108,8 @@ grid_header {
 }
 
 .content {
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
     padding-left: 2%;
 }
@@ -123,6 +126,66 @@ grid_header {
     align-items: center;
     list-style-type: none;
     font-size: 30px;
+}
+
+.highlight_card {
+    flex: 2;
+    background-image: url(./Images/leds.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 75vh;
+    border: solid 5px var(--extra-accent2);
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box_header, h3 {
+    background-color: var(--extra-accent2);
+    width: 100px;
+}
+
+h3 {
+    border-radius: 0px 0px 5px 0px;
+}
+
+.calculator_card {
+    flex: 1;
+    background-image: url(./Images/comp_back.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20vh;
+    width: 40%;
+    border: solid 5px var(--extra-accent2);
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.report_card {
+    flex: 1;
+    background-image: url(./Images/ocean_background.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20vh;
+    width: 40%;
+    border: solid 5px var(--extra-accent2);
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
