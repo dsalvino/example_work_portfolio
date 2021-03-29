@@ -8,7 +8,7 @@
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box ;
     padding: 0px;
     margin: 0px;
     background-color: var(--accent-color);
@@ -108,8 +108,6 @@ grid_header {
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
     text-align: left;
     padding-left: 2%;
 }
@@ -126,6 +124,11 @@ grid_header {
     align-items: center;
     list-style-type: none;
     font-size: 30px;
+}
+
+.work_boxes {
+    display: flex;
+    justify-content: center;
 }
 
 .highlight_card {
