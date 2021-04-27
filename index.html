@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,69 +11,117 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>Denis Salvino</h1>
-        <nav>
-            <ul>
-                <li><a href="#About_me">About Me</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Contact">Contact Me</a></li>
-                <li><a href="#Resume">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="banner">
-        <h2 class = "subtitle">Like a good neighbor, state farm is there!</h2>
-    </div>
+    <body>
+        <header>
+            <h1>Denis Salvino</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact Me</a>
+                <!-- Link this to your resume! -->
+                <a href="./Assets/resume2020.pdf" download="Denis Salvino Resume">Resume</a>
+            </nav>
+        </header>
 
-    <main class="container">
-        <section class ="grid_header title" id="About_me">
-            <h2>About Me</h2>
+        <!-- hero banner -->
+        <section class="hero-banner">
+            <div>
+                <h2>"I'm in a glass case of emotion!"</h2>
+            </div>
         </section>
 
-        <section class="content">
-            <p>
-                 ipsum dolor sit amet consectetur adipisicing elit. Ad eaque qui totam excepturi hic repellendus, praesentium, aperiam voluptatibus voluptate placeat ut repudiandae, impedit error atque voluptates temporibus nemo corrupti. Sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste similique provident officia eum adipisci praesentium consectetur amet error nulla, impedit dolore harum quidem quis maxime sint in corrupti obcaecati dolores?</p>
-        </section>
-
-        <section class="title grid_header" id="Work">
-            <h2>Work</h2>
-        </section>
-
-        <main class="work_boxes">
-            <section class="content grid_header">
-                <div class = "highlight_card">
-                    <h3>Node/ IoT</h3>
-                    <header class = "box_header">LED Wall</header>
+        <main class="page-wrapper">
+            <!-- about me -->
+            <section class="page-section" id="about">
+                <h2>About Me</h2>
+                <div>
+                    <p>
+                        My name is Denis Salvino and I currently live in Houston TX.
+                    </p>
+                    <p>
+                        I'm currently taking a coding bootcamp at Rice University.
+                    </p>
+                    <p>
+                        In this coding bootcamp, I will achieve and learn to be a Full Stack developer and develop both
+                        the front and back end of websites.
+                    </p>
+                    <p>
+                        It's a 12-week course and am very excited to dive through it.
+                    </p>
+                    <p>
+                        The bootcamp is going very well and soon to be complete. I have learned many tools and languages
+                        to help develop and become a successful Full Stack Developer.
+                    </p>
                 </div>
+            </section>
 
-                <div class = "calculator_card">
-                    <h3>React/ JavaScript/ CSS</h3>
-                    <header class = "box_header">Calculator</header>
+            <!-- portfolio container -->
+            <section class="page-section" id="work">
+                <h2>Work</h2>
+                <div class="flex-container">
+
+                    <a href="https://github.com/gallm1/movie-club"
+                        class="flex-item movie-club feature">
+                        <div>
+                            <h3>2nd Major Project</h3>
+                            <span>DMC Movie Club</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/georgehuliaris/missedOpts"
+                        class="flex-item missed-opts feature">
+                        <div>
+                            <h3>1st Major Project</h3>
+                            <span>Missed Opportunities</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/dsalvino/e-commerce-backend" class="flex-item ecommerce">
+                        <div>
+                            <h3>E-Commerce Backend</h3>
+                            <span>Sequelize/mySQL</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/dsalvino/SQL-employee-tracker" class="flex-item employeeTracker">
+                        <div>
+                            <h3>SQL Employee Tracker</h3>
+                            <span>mySQL/Inquirerjs</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/dsalvino/README_generator" class="flex-item readme">
+                        <div>
+                            <h3>README Generator</h3>
+                            <span>JavaScript/Nodejs/Inquirerjs</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/dsalvino/weather-dashboard" class="flex-item weather">
+                        <div>
+                            <h3>Weather Dashboard</h3>
+                            <span>JavaScript/Weather API</span>
+                        </div>
+                    </a>
+
                 </div>
+            </section>
 
-                <div class = "report_card">
-                    <header class = "box_header">Surf Report</header>
-                    <h3>MERN Stack</h3>
+            <!-- contact -->
+            <section class="page-section contact" id="contact">
+                <h2>Contact Me</h2>
+                <div>
+                    <address>
+                        <a href="tel:+18327625523">(832)-762-5523</a>
+                        <a href="mailto:denis.salvino23@gmail.com">Email</a>
+                        <a href="https://github.com/dsalvino">GitHub</a>
+                        <a href="https://https://www.linkedin.com/in/denis-salvino23/">LinkedIn</a>
+                    </address>
                 </div>
             </section>
         </main>
-
-        <section class = "grid_header title" id = "contactme">
-            <h2>Contact Me</h2>
-
-        </section>
-            <section id="content grid_header">
-                <div class="contact_information" id = "Contact">
-                    <h4 class = "contact">+1(832)832-8328</h4>
-                    <h4 class = "contact">place.holder@gmail.com</h4>
-                    <h4 class = "contact">github</h4>
-                    <h4 class = "contact">linkedIn</h4>
-                </div>
-            </section>
-        </section>
-    </main>
+    </body>
 
 </body>
+
 </html>
